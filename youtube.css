@@ -1,0 +1,102 @@
+/* ================================================Nav================================================= */
+nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: white;
+    height: 80px;
+}
+#navimg{
+    width: 35px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 160px;
+}
+nav input{
+    border-radius: 30px;
+    height: 40px;
+    width: 30% ;
+    margin-left: 400px;
+}
+#mic{
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin-left: 10px;
+}
+#troisp{
+    margin-left: 400px;
+}
+#sign{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+/* ============================================================Aside=============================================== */
+.navig{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+aside a {
+    text-align: center;
+    border-radius: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+}
+.hover-effect:hover {
+    filter: brightness(90%);
+}
+button{
+    border: none;
+    border-radius: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* ======================================================Container=========================================================== */
+.container{
+    margin-top: 100px;
+}
+.filtre{
+    background-color: #e5e5e5 ;
+    border-radius: 10px;
+    padding: 5px;
+}
+#aprop{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px; 
+    margin-right: 20px; 
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white ;  
+}
+#filtr{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
